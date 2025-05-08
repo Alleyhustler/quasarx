@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'SUPERKAR';
+	src: url('fonts/SUPERKAR.TTF')
+	format('truetype');
+	
+}
+
+@font-face {
+    font-family: 'Graffiti';
+    src: url("fonts/Graffiti%20City.otf");
+    format('opentype');
+}
+@font-face {
+    font-family: 'chicago';
+    src: url("fonts/Chicago%20Punk.ttf");
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'garagesh';
+    src: url("fonts/garagesh.ttf");
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Paskowy';
+    src: url("fonts/Paskowy.ttf");
+    format('truetype');
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-6/oth661.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+body {
+  font-family: 'SUPERKAR', Verdana, arial, sans-serif;
+	font-variant: all-small-caps;
+	letter-spacing: 1px;
+	background-color: #000;
+    
+    }
+
+.click {
+  font-family: 'Paskowy', Verdana, arial, sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  color: #1a1a1a;
+  }
+
+.splash {
+
+  width: 820px;
+  height: 500px;
+  margin: auto;
+}
+
+.splashcontent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+	color: #edd6b4;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #edd6b4;
+  background: #9f1c00;
+}
+
+::selection {
+  color: #edd6b4;
+  background: #9f1c00;
+}
+
+
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+
+
+
+/* selected link */
+.splashcontent a:hover {
+	color: #9f1c00;
+}
+
+
+
+.logo {
+	margin: 0px;
+	
+	
+}
+
+.left {
+	
+}
+
+.right {
+		font-family: 'SUPERKAR', Verdana, arial, sans-serif;
+}
+
+
+
+footer {
+	
+	
+	color: #edd6b4;
+	font-size: 0.8rem;
+}

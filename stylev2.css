@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'Graffiti';
+    src: url("fonts/Graffiti%20City.otf");
+    format('opentype');
+}
+@font-face {
+    font-family: 'chicago';
+    src: url("fonts/Chicago%20Punk.ttf");
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'garagesh';
+    src: url("fonts/garagesh.ttf");
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Paskowy';
+    src: url("fonts/Paskowy.ttf");
+    format('truetype');
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-6/oth661.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+body, html {
+    height: 100%;
+    color: #ffdab5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      scrollbar-color: #1a1a1a #000;
+	scrollbar-width: thin;
+    background-color: #000;
+    
+    }
+
+a {
+	color: #CD542D;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+}
+
+b {
+  color: #ffdab5;
+	text-shadow: 1px 1px black;
+  }
+
+p {
+  color:#ffdab5;
+  font-size: 15px;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #edd6b4;
+  text-shadow: 1px 1px #000;
+  font-size: 3rem;
+  font-family: 'garagesh', Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: all-small-caps;
+  margin: 0;
+  padding: 0;
+  }
+
+h3:after {
+  border-bottom: 2px dotted #edd6b4;
+  margin-top: 6px;
+  flex: 1;
+  content: '';
+  }
+
+hr {
+	border: 1px dashed gray;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #edd6b4;
+  background: #9f1c00;
+}
+
+::selection {
+  color: #edd6b4;
+  background: #5a2316;
+}
+
+.widecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
+    margin: 4% auto auto auto;
+}
+
+.sitebox {
+  
+	font-size: 1rem;
+	font-variant: all-small-caps;
+	margin-top: 20%;
+	border-radius: 6px 6px 0px 0px;
+	padding: 0 0 18px 0;
+  margin: auto 0 auto auto;
+width: 940px;
+  height: 505px;
+  background-color: #0e0d0c;
+  background-image: url("../www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 1px solid #0e0d0c;
+  border-top: 1px solid #2c2926;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+ /* Created with https://www.css-gradient.com */
+  background: #000000;
+  background: -webkit-linear-gradient(top, #000000, #0E0D0D);
+  background: -moz-linear-gradient(top, #000000, #0E0D0D);
+  background: linear-gradient(to bottom, #000000c5, #0e0d0d05);
+}
+.headerrow {
+    flex: 1 1 4%;
+    margin: 0;
+	
+}
+.headerimg {
+    border-right: 1px dashed #4f5348;
+}
+.mainrow {
+  flex: 1 1 50%;
+	margin: 2px 0px 35px 0px;
+	padding: 0;
+  background-color: #4646417c;
+	border: 1px inset rgb(70, 70, 61);
+	text-decoration: none;
+	overflow: hidden;
+  scrollbar-color: #1a1a1a #000;
+	scrollbar-width: thin;
+}
+.navrow {
+    flex: 1 1 5%;
+
+	padding: 0;
+	position: relative;
+}
+.logo {
+  font-family: "Stick", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 210, 180);
+  text-shadow: 0 0 0px, 0 0 4px #b49885;
+  font-size: 3.7rem;
+  text-align: center;
+}
+.links {
+    font-family: 'chicago', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 210, 180);
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    text-align: right;
+    padding-left:0;
+    margin-left:0;
+    
+}
+.links li {
+    list-style: none;
+    text-decoration: none;
+}
+.links summary {
+    list-style: none;
+    text-decoration: none;
+     
+}
+summary::before {
+    content: ' ⇢';
+  }
+  
+  
+  details[open] summary:before {
+    content: " ⇣";
+  }
+  
+  @media screen and (max-width: 600px) {
+summary::before {
+    content: ' ';
+  }
+}
+
+@media screen and (max-width: 600px) {
+	details[open] summary:before {
+    content: " ";
+  }
+}
+  
+.newsbox{
+    margin: auto auto auto 0;
+    height: 520px;
+    width: 15%;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 1px solid #0e0d0c;
+    border-top: 1px solid black;
+    overflow: hidden;
+    background-color: #4646417c;
+}
+.newsh3 {
+
+  font-family: "Stick", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-variant: all-small-caps;
+    background-color: black;
+background-image: url("../www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    clip-path: polygon(0 0, 88% 0, 75% 100%, 0 100%);
+    padding: 2px;
+    color: #ffdab5;
+    font-size: 15px;
+    height: auto;
+    width: 55%;
+    border-bottom: 1px dashed black;
+    
+}
+
+.scrollbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: all-small-caps;
+    color: #ffdab5;
+    font-size: 15px;
+    overflow-y: scroll;
+    height: 90%;
+    margin: 10px;
+    white-space: wrap;
+    
+}
+
+.title {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title::after{
+  border-bottom: 2px dotted black;
+  margin-top: 6px;
+  flex: 1;
+  content: '';
+  }
+span {
+    font-size: 1rem;
+}
+footer {
+    position: relative;
+    bottom: 5.4%;
+    left: 2.5%;
+    font-size: 1rem;
+}
+.footertext {
+    font-family: ms pgothic, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    color:bisque;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.barcode {
+  font-family: 'Paskowy';
+  position: absolute;
+  right: 50px;
+  bottom: 1px;
+  font-size: 4rem;
+  color: #48463F;
+  }
+
+  .musicplayer {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+  }
+
+  marquee {
+    font-variant: all-small-caps;
+    color:bisque;
+    background-color: #1a1a1a;
+    font-size: 15px;
+  }
+  
